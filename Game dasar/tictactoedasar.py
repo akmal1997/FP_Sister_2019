@@ -29,7 +29,7 @@ def display_board(board):
 def player_input():
     marker = ' '
     while not (marker == 'X' or marker == 'O'):
-        marker = raw_input('Pemain 1, Pilih O atau X untuk bermain!').upper()
+        marker = raw_input('Pemain 1, Pilih O atau X untuk bermain').upper()
     if marker == 'X':
         return {'Pemain 1': 'X', 'Pemain 2': 'O'}
     else:
