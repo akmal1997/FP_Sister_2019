@@ -1,6 +1,6 @@
 import Pyro4
 
-
+#client
 def get_fileserver_object(instance_name):
     uri = "PYRONAME:{}@127.0.0.1:7777" . format(instance_name)
     fserver = Pyro4.Proxy(uri)
