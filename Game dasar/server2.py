@@ -1,7 +1,7 @@
 import Pyro4
 from tictactoedasar import *
 
-
+#current server
 # Jangan lupa pyro4-ns -n localhost -p 7777
 def run_server(hostname):
     daemon = Pyro4.Daemon(host="localhost")
